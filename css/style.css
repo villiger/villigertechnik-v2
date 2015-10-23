@@ -1,0 +1,375 @@
+html * { max-height:1000000px; }
+
+
+html, body {
+    min-height: 100%;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+    font-size: 18px;
+    background-color: #222;
+}
+
+a {
+    color: #bb102b;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1, h2, h3 {
+    font-weight: 300;
+}
+
+strong {
+    font-weight: 600;
+}
+
+/********/
+/* GRID */
+/********/
+
+/*  SECTIONS  */
+.section {
+    clear: both;
+    padding: 0;
+}
+
+/*  COLUMN SETUP  */
+.col {
+    display: block;
+    float: left;
+    margin: 0;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content: ""; display: table; }
+.group:after { clear: both;}
+.group { zoom: 1; /* For IE 6/7 */ }
+
+/*  GRID OF TWO  */
+.span-full {
+    width: 100%;
+}
+.span-half {
+    width: 50%;
+}
+
+.col > p {
+    text-align: justify;
+    margin: 20px;
+    display: block;
+}
+
+.header-row {
+	background-color: white;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    position: relative;
+}
+
+.header-row .logo {
+    display: block;
+    height: 60px;
+    cursor: pointer;
+}
+
+.footer {
+    color: #aaa;
+    text-align: center;
+    background-color: #222;
+    padding: 20px 0;
+}
+
+.content-row {
+    background-color: white;
+}
+
+.title-row {
+	background-color: #bb102b;
+	color: white;
+}
+
+.image-row {
+	background-color: #f8f8f8;
+    font-size: 0;
+}
+
+.image-row img {
+	width: 100%;
+}
+
+.header-row .section,
+.title-row .section,
+.content-row .section,
+.image-row .section {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.content-row h1,
+.content-row h2,
+.content-row h3 {
+    margin: 20px;
+}
+
+.navigation {
+	display: block;
+	list-style: none;
+	padding: 0;
+    margin: 0;
+}
+
+.navigation > li {
+	font-size: 1.1em;
+	cursor: pointer;
+}
+
+.navigation > li:hover {
+	background-color: #bb102b;
+	color: white;
+}
+
+.navigation > li > a {
+    display: inline-block;
+    color: black;
+}
+
+.navigation > li:hover > a {
+    color: white;
+    text-decoration: none;
+}
+
+.front {
+    background-color: white;
+}
+
+.front > .element {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.front > .element:hover {
+    cursor: pointer;
+}
+
+.front > .element:hover a {
+    background-color: #bb102b;
+    color: white;
+}
+
+.front > .element:nth-child(1) {
+    background-image: url(/img/front/saugentmistung.jpg);
+}
+
+.front > .element:nth-child(2) {
+    background-image: url(/img/front/salatwaschmaschine.jpg);
+}
+
+.front > .element:nth-child(3) {
+    background-image: url(/img/front/vacuumcleaner.jpg);
+}
+/*
+.front > .element:nth-child(1):hover {
+    background-image: url(/img/front/saugentmistung_gray.jpg);
+}
+
+.front > .element:nth-child(2):hover {
+    background-image: url(/img/front/salatwaschmaschine_gray.jpg);
+}
+
+.front > .element:nth-child(3):hover {
+    background-image: url(/img/front/vacuumcleaner_gray.jpg);
+}
+*/
+.front > .element > .title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 45%;
+    font-family: 'Oswald', sans-serif;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    overflow: auto;
+}
+
+.front > .element > .shadow {
+    display: none;
+}
+
+.front > .element:hover > .shadow {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.front > .element > .title > a {
+    padding: 10px 20px;
+    font-size: 26px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    background-color: #bb102b;
+    text-decoration: none;
+    display: none;
+}
+
+.front > .element:hover > .title > a {
+    display: inline-block;
+}
+
+.front > .element > .caption {
+    display: none;
+}
+
+@media only screen and (max-width: 800px) {
+    .front > .element {
+        height: 400px;
+    }
+
+    .front > .element:nth-child(1),
+    .front > .element:nth-child(2) {
+        border-bottom: 3px solid white;
+    }
+
+    .header-row .logo {
+        margin: 20px auto;
+    }
+
+    .title-row h1 {
+        padding: 10px 20px;
+        font-size: 1.5em;
+    }
+
+    .navigation > li {
+        border-top: 1px solid #eee;
+    }
+
+    .navigation > li > a {
+        display: block;
+        padding: 15px 20px;
+    }
+
+    .front > .element > .title > a {
+        display: inline-block;
+        font-size: 22px;
+        padding: 5px 10px;
+    }
+
+    .content-row .col.span-half > p {
+        margin-top: 0;
+    }
+
+    .content-row .col.span-half:first-child > p {
+        margin-top: 20px;
+    }
+
+    .span-half, .span-full { width: 100%; }
+    .hidden-small { display: none; }
+}
+
+@media only screen and (min-width: 800px) {
+    .front {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 100px;
+        bottom: 64px;
+        z-index: 1;
+    }
+
+    .front > .element {
+        position: absolute;
+        right: 0;
+    }
+
+    .front > .element:nth-child(1) {
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 66.6%;
+        border-right: 3px solid white;
+        z-index: 1;
+    }
+
+    .front > .element:nth-child(2) {
+        top: 0;
+        bottom: 0;
+        left: 33.3%;
+        right: 33.3%;
+        z-index: 0;
+    }
+
+    .front > .element:nth-child(3) {
+        top: 0;
+        bottom: 0;
+        left: 66.6%;
+        right: 0;
+        border-left: 3px solid white;
+        z-index: 1;
+    }
+
+    .header-row .logo {
+        float: left;
+        margin: 20px 0 20px 0;
+    }
+
+    .title-row h1 {
+        padding: 10px 0;
+    }
+
+    .navigation {
+        float: right;
+        display: block;
+        border-right: 1px solid #eee;
+    }
+
+    .navigation > li {
+        float: left;
+        height: 100px;
+        border-left: 1px solid #eee;
+        font-size: 1.1em;
+    }
+
+    .navigation > li > a {
+        height: 24px;
+        padding: 38px 30px;
+    }
+
+    .section > .col > h1,
+    .section > .col > h2,
+    .section > .col > h3 {
+        margin-left: 0;
+    }
+
+    .section > .col:first-child > p {
+        margin-left: 0;
+    }
+
+    .section > .col:last-child > p {
+        margin-right: 0;
+    }
+
+    .hidden-big { display: none; }
+
+    .header-row .section,
+    .title-row .section,
+    .content-row .section,
+    .image-row .section {
+        padding: 0 30px;
+    }
+}
