@@ -197,8 +197,8 @@ EOD;
 
 $translations['de']['saladwasher_text2'] = <<<EOD
 <p>
-    Der Salat verlässt die Maschine gewaschen und mit der richtigen Restfeuchte. <strong>Pro Stunde können so rund
-    450 Kisten Salat gewaschen werden.</strong>
+    Der Salat verlässt die Maschine gewaschen und mit der richtigen Restfeuchte. <strong>Pro Stunde können so bis zu
+    600 Kisten Salat gewaschen werden.</strong>
 </p>
 <p>
     Der Salat ist nach dem Waschvorgang bereit für die Weiterverarbeitung. Entweder um abgepackt zu werden
@@ -208,8 +208,8 @@ EOD;
 
 $translations['en']['saladwasher_text2'] = <<<EOD
 <p>
-    The salad is leaving the machine washed and with the correct moisture level. <strong>Per hour around 450 crates of
-    salads can be washed this way.</strong>
+    The salad is leaving the machine washed and with the correct moisture level. <strong>Up to 600 crates of
+    salad per hour can be washed this way.</strong>
 </p>
 <p>
     After the washing and drying process the salad is ready for further processing like packaging or transport
