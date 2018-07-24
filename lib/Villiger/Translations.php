@@ -19,11 +19,33 @@ $translations['en']['contact'] = "Contact";
 $translations['de']['contact'] = "Kontakt";
 
 /*
- * MISC
+ * COUNTRIES
  */
+
+$translations['en']['germany'] = "Germany";
+$translations['de']['germany'] = "Deutschland";
 
 $translations['en']['switzerland'] = "Switzerland";
 $translations['de']['switzerland'] = "Schweiz";
+
+$translations['en']['austria'] = "Austria";
+$translations['de']['austria'] = "Österreich";
+
+$translations['en']['france'] = "France";
+$translations['de']['france'] = "Frankreich";
+
+$translations['en']['korea'] = "South Korea";
+$translations['de']['korea'] = "Südkorea";
+
+/*
+ * MISC
+ */
+
+$translations['en']['show_on_map'] = "Show on map";
+$translations['de']['show_on_map'] = "Auf Karte anzeigen";
+
+$translations['en']['show_references'] = "Show references";
+$translations['de']['show_references'] = "Referenzen anzeigen";
 
 /*
  * SAUGENTMISTUNG
@@ -31,6 +53,12 @@ $translations['de']['switzerland'] = "Schweiz";
 
 $translations['en']['saugentmistung'] = "Manure Suction System";
 $translations['de']['saugentmistung'] = "Saugentmistung";
+
+$translations['en']['saugentmistung_references'] = "Saugentmistung References";
+$translations['de']['saugentmistung_references'] = "Saugentmistung Referenzen";
+
+$translations['en']['saugentmistung_references_intro'] = "Here you can find a selection of horse stables where the Manure Suction System has been installed.";
+$translations['de']['saugentmistung_references_intro'] = "Hier finden Sie eine Auswahl an Reitanlagen, bei denen die Saugentmistung installiert ist.";
 
 $translations['de']['saugentmistung_text1'] = <<<EOD
 <p>
@@ -174,13 +202,19 @@ EOD;
  */
 
 $translations['en']['saladwasher'] = "Salad & Vegetable Washing Machine";
-$translations['de']['saladwasher'] = "Salat- & Gemüsewaschautomat";
+$translations['de']['saladwasher'] = "Salat- & Gemüsewaschmaschine";
+
+$translations['en']['saladwasher_video_siemens'] = '<iframe width="100%" height="600" src="https://www.youtube.com/embed/8nBUg73uRo0?showinfo=0" frameborder="0" allowfullscreen></iframe>';
+$translations['de']['saladwasher_video_siemens'] = '<iframe width="100%" height="600" src="https://www.youtube.com/embed/1Bg2Or4sJ_0?showinfo=0" frameborder="0" allowfullscreen></iframe>';
+
+$translations['en']['saladwasher_video_vt'] = '<iframe width="100%" height="600" src="https://www.youtube.com/embed/GVYj62N6RjY?showinfo=0" frameborder="0" allowfullscreen></iframe>';
+$translations['de']['saladwasher_video_vt'] = $translations['en']['saladwasher_video_vt'];
 
 $translations['de']['saladwasher_text1'] = <<<EOD
 <p>
     Salate müssen sauber gewaschen und auf den richtigen Feuchtigkeitsgrad ausgeschleudert werden, gleichzeitig
     dürfen sie während des ganzen Prozesses nicht beschädigt werden. Das sind die zentralen Punkte der
-    Salatwaschmaschine von Villiger Technik. <strong>Der Salat wird dank dem 360°-Düsensystem und dem vertikalen
+    <strong>Salatwaschmaschine</strong> und <strong>Gemüsewaschmaschine</strong> von Villiger Technik. <strong>Der Salat wird dank dem 360°-Düsensystem und dem vertikalen
     Abtauchen besonders rein gewaschen. Das innovative Schleudersystem schont den Salat beim Trocknungsvorgang.</strong>
 </p>
 EOD;
@@ -197,8 +231,8 @@ EOD;
 
 $translations['de']['saladwasher_text2'] = <<<EOD
 <p>
-    Der Salat verlässt die Maschine gewaschen und mit der richtigen Restfeuchte. <strong>Pro Stunde können so bis zu
-    600 Kisten Salat gewaschen werden.</strong>
+    Der Salat bzw. das Gemüse verlässt die Maschine gewaschen und mit der richtigen Restfeuchte. <strong>Pro Stunde können so bis zu
+    600 Kisten Salat oder Gemüse gewaschen werden.</strong>
 </p>
 <p>
     Der Salat ist nach dem Waschvorgang bereit für die Weiterverarbeitung. Entweder um abgepackt zu werden
@@ -208,8 +242,8 @@ EOD;
 
 $translations['en']['saladwasher_text2'] = <<<EOD
 <p>
-    The salad is leaving the machine washed and with the correct moisture level. <strong>Up to 600 crates of
-    salad per hour can be washed this way.</strong>
+    The salad or vegetables is leaving the machine washed and with the correct moisture level. <strong>Up to 600 crates of
+    salads or vegetables per hour can be washed this way.</strong>
 </p>
 <p>
     After the washing and drying process the salad is ready for further processing like packaging or transport
@@ -287,6 +321,18 @@ $translations['en']['saladwasher_text5'] = <<<EOD
     Water supply<br>
 </p>
 EOD;
+
+$translations['en']['vegetable_products'] = "Machines for producing vegetables";
+$translations['de']['vegetable_products'] = "Maschinen für die Gemüseproduktion";
+
+$translations['en']['show_vegetable_products'] = "Show more products for the processing of vegetables";
+$translations['de']['show_vegetable_products'] = "Weitere Produkte für die Gemüsebranche anzeigen";
+
+$translations['en']['vegetable_products_peelings'] = "Suction Machine for Peelings with Working Table";
+$translations['de']['vegetable_products_peelings'] = "Absauganlage für Rüstabfälle mit Rüsttischen";
+
+$translations['en']['vegetable_products_vertical'] = "Vertical Conveyor for Salad & Vegetable Crates";
+$translations['de']['vegetable_products_vertical'] = "Vertikalförderer für Kisten von Salaten und Gemüsen";
 
 /*
  * WASSERSAUGER

@@ -18,9 +18,17 @@
     }
 </style>
 <script>
+
     $(document).ready(function() {
-        $('.front .element').on('click', function() {
-            window.location = $(this).find('.title a').attr('href');
+        var touchmoved = false;
+        $('.front .element').on('click touchend', function(e){
+            if(!touchmoved){
+                window.location = $(this).find('.title a').attr('href');
+            }
+        }).on('touchmove', function(e){
+            touchmoved = true;
+        }).on('touchstart', function(){
+            touchmoved = false;
         });
     });
 </script>

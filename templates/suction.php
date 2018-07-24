@@ -16,6 +16,10 @@ $this->data->title = $this->translate("saugentmistung");
         <div class="col span-half">
             <?= $this->translate('saugentmistung_text2') ?>
         </div>
+        <div class="col span-full">
+            <?= $this->link('suctionreferences', '&#9654;&#xFE0E; ' . $this->translate('show_references'), 'biglink') ?>
+            <br>
+        </div>
     </div>
 </div>
 <div class="image-row">
@@ -102,26 +106,6 @@ $this->data->title = $this->translate("saugentmistung");
         </div>
         <div class="col span-full">
             <img src="/img/suction/verteiler2.jpg">
-        </div>
-    </div>
-</div>
-<div class="content-row">
-    <div class="section group">
-        <div class="col span-full">
-            <?= $this->translate('saugentmistung_text6') ?>
-        </div>
-    </div>
-</div>
-<div class="image-row">
-    <div class="section group">
-        <div class="col span-full">
-            <img src="/img/suction/korea2.jpg">
-        </div>
-        <div class="col span-full">
-            <img src="/img/suction/stall1.jpg">
-        </div>
-        <div class="col span-full">
-            <img src="/img/suction/stall2.jpg">
         </div>
     </div>
 </div>

@@ -16,12 +16,12 @@ class View extends \Slim\View {
         }
     }
 
-    public function link($href, $title = null) {
+    public function link($href, $title = null, $class = null) {
         if (empty($title)) {
             $title = $href;
         }
 
-        return "<a href=\"/{$this->data->language}/$href\">$title</a>";
+        return "<a href=\"/{$this->data->language}/$href\" class=\"$class\">$title</a>";
     }
 
     public function render($template) {

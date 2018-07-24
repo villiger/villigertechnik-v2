@@ -21,6 +21,22 @@ a:hover {
     text-decoration: underline;
 }
 
+.biglink {
+    display: block;
+    margin: 10px 0;
+    padding: 8px 20px;
+    font-size: 1.2em;
+    background-color: #bb102b;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.biglink:hover {
+    text-decoration: none;
+    background-color: black;
+}
+
 h1, h2, h3 {
     font-weight: 300;
 }
@@ -253,6 +269,10 @@ strong {
     .title-row h1 {
         padding: 10px 20px;
         font-size: 1.5em;
+    }
+
+    .navigation {
+
     }
 
     .navigation > li {
