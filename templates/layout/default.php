@@ -15,7 +15,7 @@
             <div class="col span-full">
                 <img src="/img/logo.png" class="logo" alt="Villiger Technik Logo" onclick="window.location = '/<?= $this->data->language ?>'">
                 <ul class="navigation">
-                    <li><?= $this->link('', $this->translate('products')) ?></li>
+                    <li><?= $this->link('products', $this->translate('products')) ?></li>
                     <li><?= $this->link('about', $this->translate('company')) ?></li>
                     <li><?= $this->link('contact', $this->translate('contact')) ?></li>
                 </ul>
