@@ -15,6 +15,13 @@ $this->data->title = $this->translate("vegetable_products");
         </div>
     </div>
 </div>
+<div class="content-row">
+    <div class="section group">
+        <div class="col span-half">
+            <iframe width="100%" height="600" src="https://www.youtube.com/watch?v=kOwRTho4MNU?showinfo=0" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+</div>
 <div class="image-row">
     <div class="section group">
         <div class="col span-full">

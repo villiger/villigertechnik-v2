@@ -2,7 +2,7 @@
 $this->data->title = $this->translate("contact");
 ?>
 <div>
-    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&key=AIzaSyCvjK51CZkqYkqbUb3Nykl7znog1pWdJqc"></script>
     <div style="overflow: hidden; height: 400px; width: 100%;">
         <div id="gmap_canvas" style="height: 400px; width: 100%;"></div>
         <style scoped>
