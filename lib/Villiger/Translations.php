@@ -325,11 +325,34 @@ EOD;
 $translations['en']['vegetable_products'] = "Machines for producing vegetables";
 $translations['de']['vegetable_products'] = "Maschinen für die Gemüseproduktion";
 
-$translations['en']['show_vegetable_products'] = "Show more products for the processing of vegetables";
-$translations['de']['show_vegetable_products'] = "Weitere Produkte für die Gemüsebranche anzeigen";
+$translations['en']['show_vegetable_products'] = "Suction System for Peelings and other Products";
+$translations['de']['show_vegetable_products'] = "Absauganlage für Rüstabfälle und weitere Produkte";
 
 $translations['en']['vegetable_products_peelings'] = "Suction Machine for Peelings with Working Table";
 $translations['de']['vegetable_products_peelings'] = "Absauganlage für Rüstabfälle mit Rüsttischen";
+
+$translations['en']['vegetable_products_peelings_text1'] = <<<EOD
+<p>
+    A flexible and reliable system to transport the vegetable and fruit peelings or waste away from the factory line.
+    The waste is automatically sucked away from the working tables (where the vegetables are prepared and packed).
+    It is then disposed and distributed into a centrally located container.
+</p>
+<p>
+    The working tables are connected with a pipe system. On the central touchscreen you can set time intervals for each table.
+    The waste is automatically transported away from each table after this set interval.
+</p>
+EOD;
+
+$translations['de']['vegetable_products_peelings_text1'] = <<<EOD
+<p>
+    Ein flexibles und zuverlässiges System zum Absaugen von Rüstabfällen. Die Abfälle werden automatisch von den Arbeitstischen,
+    an denen das Gemüse gerüstet und verpackt wird, abgesaugt und im zentralen Container verteilt.
+</p>
+<p>
+    Die Rüsttische sind mit einem Rohrleitungssystem verbunden. In einstellbaren Intervallen werden die Rüstabfälle bei den Tischen
+    automatisch abgesaugt.
+</p>
+EOD;
 
 $translations['en']['vegetable_products_vertical'] = "Vertical Conveyor for Salad & Vegetable Crates";
 $translations['de']['vegetable_products_vertical'] = "Vertikalförderer für Kisten von Salaten und Gemüsen";
