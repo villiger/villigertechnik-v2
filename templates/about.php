@@ -24,7 +24,7 @@ $this->data->title = $this->translate("company");
         </div>
         <div class="col span-half info">
             <p><strong>Bruno Villiger</strong></p>
-            <p>Geschäftsleiter und Inhaber</p>
+            <p>Geschäftsleitung</p>
             <p><a href="mailto:bruno@villigertechnik.ch">bruno@villigertechnik.ch</a></p>
         </div>
     </div>

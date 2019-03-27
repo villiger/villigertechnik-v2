@@ -25,8 +25,9 @@
     <?= $yield; ?>
     <div class="footer">
         Villiger Technik GmbH <span class="hidden-small">&middot;</span><span class="hidden-big"><br></span>
-        Rorikerhof &middot; CH-5443 Niederrohrdorf <span class="hidden-small">&middot;</span><span class="hidden-big"><br></span>
-        Tel +41 56 496 26 00 &middot; Fax +41 56 496 26 11 <span class="hidden-small">&middot;</span><span class="hidden-big"><br></span>
+        CH-5443 Niederrohrdorf <span class="hidden-small">&middot;</span><span class="hidden-big"><br></span>
+        Tel +41 56 496 26 00 &middot; <a href="mailto:info@villigertechnik.ch" style="color: white;">info@villigertechnik.ch</a>
+        <span class="hidden-small">&middot;</span><span class="hidden-big"><br></span>
         <strong>
             <?php if ($this->data->language == 'en'): ?>
                 EN / <a href="/de/<?= $this->data->page ?>">DE</a>

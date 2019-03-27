@@ -51,8 +51,8 @@ $translations['de']['show_references'] = "Referenzen anzeigen";
  * SAUGENTMISTUNG
  */
 
-$translations['en']['saugentmistung'] = "Manure Suction System";
-$translations['de']['saugentmistung'] = "Saugentmistung";
+$translations['en']['saugentmistung'] = "Manure Suction System for Horse Manure";
+$translations['de']['saugentmistung'] = "Saugentmistung - Absauganlage für Pferdemist";
 
 $translations['en']['saugentmistung_references'] = "Saugentmistung References";
 $translations['de']['saugentmistung_references'] = "Saugentmistung Referenzen";
@@ -62,8 +62,8 @@ $translations['de']['saugentmistung_references_intro'] = "Hier finden Sie eine A
 
 $translations['de']['saugentmistung_text1'] = <<<EOD
 <p>
-    In grossen Pferdeställen ist einer der aufwändigsten Arbeiten das Entmisten der Boxen, was jeden Tag gemacht
-    werden muss — oft sogar mehrmals. Villiger Technik bietet ein praktisches System, welches Ihnen diese Arbeit
+    In grossen Pferdeställen ist einer der aufwändigsten Arbeiten das Ausmisten der Boxen, was jeden Tag gemacht
+    werden muss — oft sogar mehrmals. Villiger Technik bietet ein Pferdemistabsauganlage, welche Ihnen diese Arbeit
     wesentlich erleichtert. Der Mist wird in einem Rohrsystem durch Luft von der Pferdebox zum Mistplatz transportiert.
 </p>
 EOD;
@@ -71,14 +71,14 @@ EOD;
 $translations['en']['saugentmistung_text1'] = <<<EOD
 <p>
     Some of the most time consuming work that has to be done every day in a big horse stable is cleaning out all
-    the horseboxes — in many stables even more than once a day. Villiger Technik provides a convenient system to
-    assist you doing this work. The manure is transported in a pipe system from the horsebox to the manure place by air.
+    the horse stalls — in many stables even more than once a day. Villiger Technik provides a convenient system to
+    assist you doing this work. The manure is transported in a pipe system from the horse stalls to the manure place by suction.
 </p>
 EOD;
 
 $translations['de']['saugentmistung_text2'] = <<<EOD
 <p>
-    Das zentral über dem Mistplatz angebrachte Turbosystem saugt den Mist durch die Rohrleitungen.
+    Das zentral über dem Mistplatz angebrachte Saugsystem saugt den Mist durch die Rohrleitungen.
     Der Zyklon und das daran angeschlossene Zellenrad trennen den Mist vom Luftstrom.
     Der Mist wird dabei nicht ausgeblasen, sondern nur ausgeworfen. Die Umgebung bleibt sauber.
 </p>
@@ -86,7 +86,7 @@ EOD;
 
 $translations['en']['saugentmistung_text2'] = <<<EOD
 <p>
-    The centrally located turbo system transports the manure with air along pipes from every horsestable to the
+    The centrally located suction unit transports the manure with air along pipes from every horse stable to the
     manure place. The cyclone and the attached turnstyle is separating the airflow from the manure, which is not
     being blown out of the system — it just falls onto the manure place. The surrounding stays nice and clean.
 </p>
@@ -95,8 +95,8 @@ EOD;
 $translations['de']['saugentmistung_text3'] = <<<EOD
 <h2>Rohrsystem</h2>
 <p>
-    Das Rohrsystem ist sehr flexibel. In Neubauten werden die Rohre typischerweise unter den Boxen im Stallboden
-    installiert. In bestehenden Ställen können die Rohre über den Boxen durchgeführt werden.
+    Das Rohrsystem ist sehr flexibel. In Neubauten werden die Rohre typischerweise unter den Pferdeboxen im Stallboden
+    installiert. In bestehenden Ställen können die Rohre über den Pferdeboxen durchgeführt werden.
     Die Rohre selbst sind aus einem widerstandsfähigen und langlebigen Material gefertigt und in Kurven mit
     rostfreiem Stahl verstärkt.
 </p>
@@ -106,32 +106,30 @@ $translations['en']['saugentmistung_text3'] = <<<EOD
 <h2>Pipe System</h2>
 <p>
     The pipe system is very flexible. In new stables the pipes are typically installed under the floor.
-    In already existing stables the pipes can also be attached over the horseboxes to make it easier to install them.
+    In already existing stables the pipes can also be attached over the horse stalls to make it easier to install them.
     The pipes are made out of a strong and long-lasting material and are reinforced with stainless steel in the bends.
 </p>
 EOD;
 
 $translations['de']['saugentmistung_text4'] = <<<EOD
-<h2>Turbosystem</h2>
+<h2>Saugsystem</h2>
 <p>
-    Das Turbosystem wird von einem 22 – 37 kW Motor angetrieben und erzeugt einen hohen Unterdruck und einen stetigen
-    Luftstrom. Die Luft transportiert den Mist mit mehr als 30 m/s durch das Rohrsystem, abhängig von der Feuchtigkeit
-    und dem Gewicht des Mists selbst.
+    Der Sauger erzeugt einen hohen Unterdruck und einen stetigen Luftstrom. Die Luft transportiert den Mist mit mehr 
+    als 30 m/s durch das Rohrsystem.
 </p>
 <p>
-    Das Turbosystem ist aus rostfreiem Stahl gebaut. Dadurch ist es sehr robust, langlebig, wartungsarm und zuverlässig.
+    Das Turbosystem ist aus Edelstahl gebaut. Dadurch ist es sehr robust, langlebig, wartungsarm und zuverlässig.
 </p>
 EOD;
 
 $translations['en']['saugentmistung_text4'] = <<<EOD
-<h2>Turbo System</h2>
+<h2>Suction System</h2>
 <p>
-    The turbo system is powered by a 22 – 37 kW motor and produces a high vacuum with a strong and steady airflow.
-    The manure is transported through the pipe system by air at well over 30 m/s – depending on the wetness
-    and weight of the manure itself.
+    The suction unit produces a lot of underpressure with a strong and steady airflow.
+    The manure is transported through the pipe system by air at well over 30 m/s.
 </p>
 <p>
-    The turbo system is built from stainless steel, which makes it very robust, long lasting, low-maintenance and reliable.
+    The suction unit is built from stainless steel, which makes it very robust, long lasting, low-maintenance and reliable.
 </p>
 EOD;
 
@@ -139,20 +137,20 @@ EOD;
 $translations['de']['saugentmistung_vacuum'] = <<<EOD
 <h2>Automatische Leistungsregulierung</h2>
 <p>
-    Optional kann eine computergesteuerte, automatische Leistungsregulierung installiert werden. Das System passt
-    dadurch je nach Anforderung die Saugleistung der Anlage stufenlos an. Muss mehr Mist gesaugt werden, wird die
+    Die computergesteuerte, automatische Leistungsregulierung passt je nach Anforderung die Saugleistung der Anlage
+    stufenlos an. Muss mehr Mist gesaugt werden, wird die
     Leistung erhöht, sind die Deckel geschlossen wird die Leistung heruntergefahren. Verweilt die Anlage länger
     im Standby wird sie automatisch ausgeschaltet. Durch die Leistungsregulierung wird Energie gespart und gleichzeitig
-    wird garantiert, dass bei starker Beanspruchung entsprechend genug Saugleistung vorhanden ist.
+    wird garantiert, dass bei starker Beanspruchung entsprechend viel Saugleistung vorhanden ist.
 </p>
 EOD;
 
 $translations['en']['saugentmistung_vacuum'] = <<<EOD
 <h2>Automatic Power Regulation</h2>
 <p>
-    The computer regulated automatic power regulation system can optionally be installed. It adjusts the power progressive
-    according to the required suction strength. If there's a lot of manure to be sucked out the power goes up, if the
-    flaps are closed the power goes down. If the system is idle over a longer period of time it will be shut down
+    The computer regulated automatic power regulation system adjusts the power
+    according to the usage. If there's a lot of manure to be sucked out the power goes up, if the
+    suction points are closed the power goes down. If the system is idle over a longer period of time it will be shut down
     automatically. This saves energy and guarantees the suction strength that is needed when the machine is heavily used.
 </p>
 EOD;
@@ -186,14 +184,14 @@ EOD;
 $translations['de']['saugentmistung_text6'] = <<<EOD
 <h2>Impressionen</h2>
 <p>
-    Im folgenden einige Impressionen von Ställen bei denen die Saugentmistung im Einsatz ist.
+    Im folgenden einige Impressionen von Pferdeställen und Reitanlagen bei denen die Saugentmistung im Einsatz ist.
 </p>
 EOD;
 
 $translations['en']['saugentmistung_text6'] = <<<EOD
 <h2>Impressions</h2>
 <p>
-    Following you see some impressions of stables where our system is installed.
+    Following you see some impressions of horse stables where our system is installed.
 </p>
 EOD;
 
@@ -322,14 +320,14 @@ $translations['en']['saladwasher_text5'] = <<<EOD
 </p>
 EOD;
 
-$translations['en']['vegetable_products'] = "Machines for producing vegetables";
-$translations['de']['vegetable_products'] = "Maschinen für die Gemüseproduktion";
+$translations['en']['vegetable_products'] = "Suction System for Vegetable Peelings & Waste";
+$translations['de']['vegetable_products'] = "Absauganlage für Rüstabfälle von Gemüse & Früchten";
 
-$translations['en']['show_vegetable_products'] = "Suction System for Peelings and other Products";
-$translations['de']['show_vegetable_products'] = "Absauganlage für Rüstabfälle und weitere Produkte";
+$translations['en']['show_vegetable_products'] = "Suction System for Vegetable Peelings & Waste";
+$translations['de']['show_vegetable_products'] = "Absauganlage für Rüstabfälle von Gemüse & Früchten";
 
-$translations['en']['vegetable_products_peelings'] = "Suction Machine for Peelings with Working Table";
-$translations['de']['vegetable_products_peelings'] = "Absauganlage für Rüstabfälle mit Rüsttischen";
+$translations['en']['vegetable_products_peelings'] = "Suction Machine for Vegetable Peelings & Waste with Working Table";
+$translations['de']['vegetable_products_peelings'] = "Absauganlage für Rüstabfälle von Gemüse & Früchten mit Rüsttischen";
 
 $translations['en']['vegetable_products_peelings_text1'] = <<<EOD
 <p>
@@ -345,7 +343,7 @@ EOD;
 
 $translations['de']['vegetable_products_peelings_text1'] = <<<EOD
 <p>
-    Ein flexibles und zuverlässiges System zum Absaugen von Rüstabfällen. Die Abfälle werden automatisch von den Arbeitstischen,
+    Ein flexibles und zuverlässiges System zum Absaugen von Rüstabfällen / Gemüseabfällen. Die Abfälle werden automatisch von den Arbeitstischen,
     an denen das Gemüse gerüstet und verpackt wird, abgesaugt und im zentralen Container verteilt.
 </p>
 <p>
@@ -445,7 +443,7 @@ $translations['en']['about_tentheating1'] = <<<EOD
 EOD;
 
 $translations['de']['about_horse1'] = "<h2>Pferdeboxen und automatische Schiebetüren</h2>";
-$translations['en']['about_horse1'] = "<h2>Horse boxes and automatic sliding doors</h2>";
+$translations['en']['about_horse1'] = "<h2>Horse stalls and automatic sliding doors</h2>";
 
 $translations['de']['about_agritec1'] = "<h2>Landtechnik</h2>";
 $translations['en']['about_agritec1'] = "<h2>Agricultural machines</h2>";
