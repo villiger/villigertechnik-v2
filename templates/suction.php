@@ -20,12 +20,15 @@ $this->data->title = $this->translate("saugentmistung");
             <?= $this->link('suctionreferences', '&#9654;&#xFE0E; ' . $this->translate('show_references'), 'biglink') ?>
             <br>
         </div>
+        <div class="col span-full">
+            <h2>Video</h2>
+        </div>
     </div>
 </div>
 <div class="image-row">
     <div class="section group">
         <div class="col span-full">
-            <iframe width="100%" height="600" src="https://www.youtube.com/embed/BidfLuwS92c?showinfo=0" frameborder="0" allowfullscreen></iframe>
+            <iframe width="100%" height="600" src="https://www.youtube.com/embed/BidfLuwS92c" frameborder="0" allowfullscreen></iframe>
         </div>
     </div>
 </div>

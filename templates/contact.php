@@ -2,7 +2,55 @@
 $this->data->title = $this->translate("contact");
 ?>
 <div>
-    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&key=AIzaSyCvjK51CZkqYkqbUb3Nykl7znog1pWdJqc"></script>
+<div class="title-row">
+    <div class="section group">
+        <div class="col span-full">
+            <h1><?= $this->translate('contact') ?></h1>
+        </div>
+    </div>
+</div>
+<div class="content-row">
+    <div class="section group">
+        <div class="col span-half">
+            <h2><?= $this->translate('contact_form') ?></h2>
+            <p>
+                Name:<br>
+                <input type="text" required name="Name">
+            </p>
+            <p>
+                Name:<br>
+                <input type="text" required name="Name">
+            </p>
+            <p>
+                Tel +41 56 496 26 00<br>
+                Fax +41 56 496 26 11<br>
+                Mobile +41 79 410 64 02<br>
+            </p>
+            <p>
+                <a href="mailto:info@villigertechnik.ch">info@villigertechnik.ch</a><br>
+                <a href="http://www.villigertechnik.ch">www.villigertechnik.ch</a><br>
+            </p>
+        </div>
+        <div class="col span-half">
+            <p>
+                Villiger Technik GmbH<br>
+                Rorikerhof<br>
+                5443 Niederrohrdorf<br>
+                <?= $this->translate('switzerland') ?><br>
+            </p>
+            <p>
+                Tel +41 56 496 26 00<br>
+                Fax +41 56 496 26 11<br>
+                Mobile +41 79 410 64 02<br>
+            </p>
+            <p>
+                <a href="mailto:info@villigertechnik.ch">info@villigertechnik.ch</a><br>
+                <a href="http://www.villigertechnik.ch">www.villigertechnik.ch</a><br>
+            </p>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&key=AIzaSyCvjK51CZkqYkqbUb3Nykl7znog1pWdJqc"></script>
     <div style="overflow: hidden; height: 400px; width: 100%;">
         <div id="gmap_canvas" style="height: 400px; width: 100%;"></div>
         <style scoped>
@@ -36,32 +84,4 @@ $this->data->title = $this->translate("contact");
 
         google.maps.event.addDomListener(window, 'load', initMap);
     </script>
-</div>
-<div class="title-row">
-    <div class="section group">
-        <div class="col span-full">
-            <h1><?= $this->translate('contact') ?></h1>
-        </div>
-    </div>
-</div>
-<div class="content-row">
-    <div class="section group">
-        <div class="col span-full">
-            <p>
-                Villiger Technik GmbH<br>
-                Rorikerhof<br>
-                5443 Niederrohrdorf<br>
-                <?= $this->translate('switzerland') ?><br>
-            </p>
-            <p>
-                Tel +41 56 496 26 00<br>
-                Fax +41 56 496 26 11<br>
-                Mobile +41 79 410 64 02<br>
-            </p>
-            <p>
-                <a href="mailto:info@villigertechnik.ch">info@villigertechnik.ch</a><br>
-                <a href="http://www.villigertechnik.ch">www.villigertechnik.ch</a><br>
-            </p>
-        </div>
-    </div>
 </div>

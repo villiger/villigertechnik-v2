@@ -202,10 +202,10 @@ EOD;
 $translations['en']['saladwasher'] = "Salad & Vegetable Washing Machine";
 $translations['de']['saladwasher'] = "Salat- & Gemüsewaschmaschine";
 
-$translations['en']['saladwasher_video_siemens'] = '<iframe width="100%" height="600" src="https://www.youtube.com/embed/8nBUg73uRo0?showinfo=0" frameborder="0" allowfullscreen></iframe>';
-$translations['de']['saladwasher_video_siemens'] = '<iframe width="100%" height="600" src="https://www.youtube.com/embed/1Bg2Or4sJ_0?showinfo=0" frameborder="0" allowfullscreen></iframe>';
+$translations['en']['saladwasher_video_siemens'] = '<iframe width="100%" height="600" src="https://www.youtube.com/embed/8nBUg73uRo0" frameborder="0" allowfullscreen></iframe>';
+$translations['de']['saladwasher_video_siemens'] = '<iframe width="100%" height="600" src="https://www.youtube.com/embed/1Bg2Or4sJ_0" frameborder="0" allowfullscreen></iframe>';
 
-$translations['en']['saladwasher_video_vt'] = '<iframe width="100%" height="600" src="https://www.youtube.com/embed/GVYj62N6RjY?showinfo=0" frameborder="0" allowfullscreen></iframe>';
+$translations['en']['saladwasher_video_vt'] = '<iframe width="100%" height="600" src="https://www.youtube.com/embed/GVYj62N6RjY" frameborder="0" allowfullscreen></iframe>';
 $translations['de']['saladwasher_video_vt'] = $translations['en']['saladwasher_video_vt'];
 
 $translations['de']['saladwasher_text1'] = <<<EOD

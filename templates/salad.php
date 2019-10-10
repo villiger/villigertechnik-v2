@@ -20,6 +20,9 @@ $this->data->title = $this->translate("saladwasher");
             <?= $this->link('vegetableproducts', '&#9654;&#xFE0E; ' . $this->translate('show_vegetable_products'), 'biglink') ?>
             <br>
         </div>
+        <div class="col span-full">
+            <h2>Videos</h2>
+        </div>
     </div>
 </div>
 <div class="image-row">
