@@ -453,3 +453,17 @@ $translations['en']['about_handlers1'] = "<h2>Telescopic handlers</h2";
 
 $translations['de']['about_fodder1'] = "<h2>Futtermischwagen</h2>";
 $translations['en']['about_fodder1'] = "<h2>Fodder distribution wagon</h2";
+
+$translations['de']['about_jobs'] = <<<EOD
+<h3>Wir stellen ein:</h3>
+<p>
+    <a href="/download/LandmaschinenmechanikerIn.pdf" target="_blank">Mechaniker/in, Monteur/in, Landmaschinenmechaniker/in 80-100%</a>
+</p>
+EOD;
+
+$translations['en']['about_jobs'] = <<<EOD
+<h3>We hire:</h3>
+<p>
+    <a href="/download/LandmaschinenmechanikerIn.pdf" target="_blank">Mechanic 80-100%</a>    
+</p>
+EOD;

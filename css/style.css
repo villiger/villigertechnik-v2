@@ -83,6 +83,11 @@ strong {
     display: block;
 }
 
+.content-row.jobs {
+    background-color: #fffcc7;
+    font-size: 1.2em;
+}
+
 .header-row {
 	background-color: white;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);

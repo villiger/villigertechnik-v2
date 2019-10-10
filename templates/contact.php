@@ -9,29 +9,18 @@ $this->data->title = $this->translate("contact");
         </div>
     </div>
 </div>
+
+<div class="content-row jobs">
+    <div class="section group">
+        <div class="col span-full">
+            <?= $this->translate('about_jobs') ?>
+        </div>
+    </div>
+</div>
+
 <div class="content-row">
     <div class="section group">
-        <div class="col span-half">
-            <h2><?= $this->translate('contact_form') ?></h2>
-            <p>
-                Name:<br>
-                <input type="text" required name="Name">
-            </p>
-            <p>
-                Name:<br>
-                <input type="text" required name="Name">
-            </p>
-            <p>
-                Tel +41 56 496 26 00<br>
-                Fax +41 56 496 26 11<br>
-                Mobile +41 79 410 64 02<br>
-            </p>
-            <p>
-                <a href="mailto:info@villigertechnik.ch">info@villigertechnik.ch</a><br>
-                <a href="http://www.villigertechnik.ch">www.villigertechnik.ch</a><br>
-            </p>
-        </div>
-        <div class="col span-half">
+        <div class="col span-full">
             <p>
                 Villiger Technik GmbH<br>
                 Rorikerhof<br>
@@ -40,12 +29,9 @@ $this->data->title = $this->translate("contact");
             </p>
             <p>
                 Tel +41 56 496 26 00<br>
-                Fax +41 56 496 26 11<br>
-                Mobile +41 79 410 64 02<br>
             </p>
             <p>
                 <a href="mailto:info@villigertechnik.ch">info@villigertechnik.ch</a><br>
-                <a href="http://www.villigertechnik.ch">www.villigertechnik.ch</a><br>
             </p>
         </div>
     </div>

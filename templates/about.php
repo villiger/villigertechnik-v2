@@ -9,6 +9,14 @@ $this->data->title = $this->translate("company");
     </div>
 </div>
 
+<div class="content-row jobs">
+    <div class="section group">
+        <div class="col span-full">
+            <?= $this->translate('about_jobs') ?>
+        </div>
+    </div>
+</div>
+
 <div class="content-row">
     <div class="section group" style="padding-bottom: 40px;">
         <div class="col span-full">
