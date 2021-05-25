@@ -23,8 +23,8 @@ $this->data->title = $this->translate("contact");
         <div class="col span-full">
             <p>
                 Villiger Technik GmbH<br>
-                Rorikerhof<br>
-                5443 Niederrohrdorf<br>
+                Bahnhofstrasse 27<br>
+                5647 Oberrüti<br>
                 <?= $this->translate('switzerland') ?><br>
             </p>
             <p>
@@ -48,7 +48,7 @@ $this->data->title = $this->translate("contact");
     </div>
     <script type="text/javascript">
         function initMap() {
-            var latlng = new google.maps.LatLng(47.4220968, 8.293963599999984);
+            var latlng = new google.maps.LatLng(47.1647524, 8.4019042);
 
             map = new google.maps.Map(document.getElementById("gmap_canvas"), {
                 zoom: 14,
@@ -60,7 +60,7 @@ $this->data->title = $this->translate("contact");
                 position: latlng
             });
             infowindow = new google.maps.InfoWindow({
-                content: "<b>Villiger Technik GmbH</b><br>Rorikerhof<br>5443 Niederrohrdorf<br><a href='https://goo.gl/maps/OckGv' target='_blank'><strong>In Google Maps öffnen</strong></a>"
+                content: "<b>Villiger Technik GmbH</b><br>Bahnhofstrasse 27<br>5647 Oberrüti<br><a href='https://goo.gl/maps/6cjRjq64G7vCtmUg9' target='_blank'><strong>In Google Maps öffnen</strong></a>"
             });
             google.maps.event.addListener(marker, "click", function() {
                 infowindow.open(map, marker);

@@ -18,7 +18,6 @@
     }
 </style>
 <script>
-
     $(document).ready(function() {
         var touchmoved = false;
         $('.front .element').on('click touchend', function(e){
